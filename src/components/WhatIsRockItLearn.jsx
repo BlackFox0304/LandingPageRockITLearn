@@ -4,16 +4,8 @@ import { Box, Typography, Container } from '@mui/material';
 const WhatIsRockItLearn = ({ imageUrl }) => {
   return (
     <Container id="what-is-rockitlearn" maxWidth="lg" sx={{ my: 8, pt: 2,}}>
-      <Box sx={{
-        display: 'flex',
-        flexDirection: { xs: 'column', md: 'row' },
-        alignItems: 'center',
-        gap: 4
-      }}>
-        <Box sx={{ 
-          flex: 1,
-          textAlign: { xs: 'center', md: 'left' }
-        }}>
+      <Box sx={{display: 'flex',flexDirection: { xs: 'column', md: 'row' },alignItems: 'center',gap: 4}}>
+        <Box sx={{ flex: 1,textAlign: { xs: 'center', md: 'left' }}}>
           <Typography variant="h4" component="h2" fontWeight="bold" sx={{ mb: 4, color: '#1e2a3a'}} >
             ¿Qué es RockItLearn?
           </Typography>
@@ -26,7 +18,7 @@ const WhatIsRockItLearn = ({ imageUrl }) => {
         </Box>
         
         <Box sx={{ flex: 1 }}>
-          <Box
+          <Box 
             component="img"
             src={imageUrl || '/images/img2.jpg'}
             alt="Persona tocando una guitarra"

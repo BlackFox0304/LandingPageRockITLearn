@@ -65,21 +65,21 @@ const Navbar = () => {
               sx={buttonStyles}
               onClick={() => scrollToSection('what-is-rockitlearn')}
             >
-              Qué es RockItLearn?
+              ¿Qué es RockItLearn?
             </Button>
             <Button 
               color="inherit" 
               sx={buttonStyles}
               onClick={() => scrollToSection('how-does-it-work')}
             >
-              Cómo funciona?
+              ¿Cómo funciona?
             </Button>
             <Button 
               color="inherit" 
               sx={buttonStyles}
-              onClick={() => scrollToSection('gallery')}
+              onClick={() => scrollToSection('about-us')}
             >
-              Galería
+              Acerca de Nosotros
             </Button>
             <Button 
               color="inherit" 

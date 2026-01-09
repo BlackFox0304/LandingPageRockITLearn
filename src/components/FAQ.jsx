@@ -34,7 +34,7 @@ const FAQ = () => {
     <Box id="faq" sx={{ backgroundColor: '#b3d4fcff', py: 8, pt: 10,}}>
       <Container maxWidth="md">
         <Typography variant="h4" component="h2" fontWeight="bold" sx={{ mb: 4, textAlign: 'center' }}>
-          Tus preguntas respondidas
+          Preguntas Frecuentes
         </Typography>
         
         <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: 3 }}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Container, Grid, Paper } from '@mui/material';
+import { Box, Typography, Container, Grid} from '@mui/material';
 import PianoIcon from '@mui/icons-material/Piano';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';

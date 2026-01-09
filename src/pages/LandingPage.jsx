@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import WhatIsRockItLearn from '../components/WhatIsRockItLearn'
 import HowItWorks from '../components/HowItWorks'
+import AboutUs from '../components/AboutUs'
 import Gallery from '../components/Gallery'
 import FAQ from '../components/FAQ'
 import Footer from '../components/Footer'
@@ -14,6 +15,7 @@ const LandingPage = () => {
       <Hero />
       <WhatIsRockItLearn />
       <HowItWorks />
+      <AboutUs />
       <Gallery />
       <FAQ />
       <Footer />
